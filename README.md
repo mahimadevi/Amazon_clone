@@ -1,4 +1,4 @@
-# Amazon-like E-commerce Application
+# Amazon_Clone
 
 # What the Project Does
 This project is an Amazon-like e-commerce application that provides users with the ability to browse and purchase products, manage their shopping cart, and complete the checkout process. The application includes features such as user authentication, product management, order tracking, and payment processing using the Stripe API.
@@ -21,7 +21,7 @@ To get started with the project, follow these steps:
    cd ../server
    npm install
 5. Update the MongoDB connection URL in the server.js file located in the server directory.
-   ``bash
+   ```bash
    // server.js
    const connection_url = "YOUR_MONGODB_CONNECTION_URL";
    mongoose.connect(connection_url, {
@@ -40,10 +40,8 @@ To get started with the project, follow these steps:
    //Client (React App)
    cd ../client
    npm start
- The client application will run on http://localhost:3000.
-   ```bash
+   
    //Server (Node.js/Express)
    cd ../server
-   npm start`
-
-The server will run on http://localhost:8000.
+   npm start
+The client application will run on http://localhost:3000 and server will run on http://localhost:8000.
